@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media screen and (min-width: 1024px) {
+    .formContainer{
+        width: 30%;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .formContainer{
+        width: 30%;
+    }
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 0cm;
+    color: rgb(18, 19, 18);
+    background-image: url(../img/TE_Clouds_card_r1.jpg);
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    color: rgb(238, 236, 238);
+    margin-top: 0cm;
+    background-color: rgb(61, 63, 57);
+    height: 2cm;
+}
+.hy{
+    display: flex;
+    justify-content: space-between;
+    color: darkblue;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.button4{
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+   
+   ;
+}
+
+.bar{
+    display: flex;
+    margin-top: 18px;
+    justify-content: space-between;
+    background-color: white;
+}
+.logo{
+    padding-left: 30px;
+}
+.manu{
+    display: flex;
+    margin-top: 18px;
+    padding-right: 60px;
+    gap: 10px;
+    
+    
+}
+.bt1{
+    height: 38px;
+    width: 87px;
+    border-color: #5a9c09;
+    background-color:rgb(44, 150, 53);
+    color: #f7f8f4;
+    border-radius: 5px;
+    cursor: pointer;
+   
+
+}
+.bt2{
+    height: 38px;
+    width: 71px;
+    border-color: #71b322;
+    background-color:#517921;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.mat{
+    height: 17cm;
+    width: 100%;
+    display: flex;
+    background-image: url(../img/bg-slide-1-min.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;  
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    margin-top: 1cm;
+    gap: 1cm;
+    margin-top: 11cm;
+    color: darkblue;
+    cursor: pointer;
+}
+
+
+    
+
+
+
+

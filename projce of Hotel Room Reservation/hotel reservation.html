@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotelroomreservation</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="title">
+        <h1>Book Reservation For Room</h1>
+    </div>
+    <div class="form-container">
+         
+    <form action="" id="myform" >
+        <div class="form Details">
+        <label for='FirstName'>First Name:</label> <br>
+        <input placeholder="FirstName" type="text" id="FirstName" name="FirstName"/ style="width: 8cm; height: 0.8cm;"> <br>
+         <div class="errorMessage" id="FirstNameErr"></div>
+        </div>
+        <div class="form Details">
+        <label for='LastName'>Last Name:</label> <br>
+        <input placeholder="LastName" type="text" id="LastName" name="LastName" / style="width: 8cm; height: 0.8cm;"> <br>
+         <div class="errorMessage"></div>
+        </div>
+        <div class="form Details">
+        <label for='EMail'>EMail:</label>  <br>
+        <input placeholder="EMail" type="text" id="EMail" name="EMail"/ style="width: 8cm; height: 0.8cm;"> <br>
+         <div class="errorMessage"></div>
+        </div>
+       
+        <div class="form Details">
+        <label for='Phone'>Phone:</label> <br>
+        <input type="text" id="Phone" name="Phone" / style="width: 8cm; height: 0.8cm;"> <br>
+         <div class="errorMessage" id="errorMessage"></div>
+        </div>
+        <div class="form Details">
+        <label for='Address'>Address:</label> <br>
+       <textarea cols="35" rows="3" id="Address" name="Address"></textarea> <br>
+        <div class="errorMessage" id="errorMessage"></div>
+       </div>
+       <div>
+       <label for='checkinDate'>checkInDate</label> <br>
+       <input type="date" id="checkInDate" name="checkInDate" / style="width: 3cm; height: 0.8cm;">  <br>
+       <label for='checkinTime'>checkInTime</label> <br>
+       <input type="time" id="checkInTime" name="checkInTime" / style="width: 3cm; height: 0.8cm;"> 
+        <div class="errorMessage" id="errorMessage"></div>
+       </div>
+       <div>
+       <label for='checkoutDate'>checkoutDate</label> <br>
+       <input type="date" id="checkoutDate" name="checkoutDate" / style="width: 3cm; height: 0.8cm;"> <br>
+       <label for='checkoutTime'>checkoutTime</label> <br>
+       <input type="time" id="checkoutTime" name="checkoutTime" / style="width: 3cm; height: 0.8cm;"> 
+        <div class="errorMessage" id="errorMessage"></div>
+       </div>
+       <div>
+       <label for='TypeofRoom'>TypeofRoom:</label>  <br>
+        <select id="TypeofRoom"  name="TypeofRoom" style="width: 6cm; height: 0.8cm;">
+                <option value="000" selected="selected">Type-of-room-interested-in</option>
+                <option value="008" id="btn">Presidential-lodge </option>
+                <option value="012" id="btn1">First-class </option>
+                <option value="016" id="btn2">economy-class </option>
+                <div class="errorMessage" id="errorMessage"></div>
+            </div>
+            </select>
+            <div>
+            <input type="number" id="persons" placeholder="number of persons"/style="width: 6cm; height: 0.8cm;">
+            </div>
+            <br>
+            
+         <div class="button4">
+        <button id="button" type="button" style="width: 3cm; height: 0.8cm; background-color: blue; color: white;  cursor: pointer;">Submit</button>
+    </div>
+          </form>
+    
+    </form>
+    </div>
+
+    <script src="./css/hotelroom.js"></script>
+</body>
+</html>
